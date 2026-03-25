@@ -26,7 +26,9 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 ### 2. Setup your Environment
 
-The app requires an OpenWeatherMap API key. In the root directory, create a `.env` file and insert your API credentials like this:
+The app requires an OpenWeatherMap API key. You can generate your free API key here: [https://home.openweathermap.org/api_keys](https://home.openweathermap.org/api_keys)
+
+In the root directory, create a `.env` file and insert your API credentials like this:
 
 ```env
 VITE_WEATHER_API_KEY=your_api_key_here
